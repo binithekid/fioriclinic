@@ -135,7 +135,7 @@ export function AnimatedMenu({ isOpen, setIsOpen }: AnimatedMenuProps) {
                 className="w-full"
               >
                 <ul className="space-y-8 ml-10">
-                  {menuItems.map((item, index) => (
+                  {menuItems.map((item) => (
                     <motion.li
                       key={item.name}
                       variants={itemVariants}

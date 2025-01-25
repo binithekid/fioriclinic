@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Menu } from "lucide-react";
 import { AnimatedMenu } from "./AnimatedMenu";
 
 const NavBar = () => {
