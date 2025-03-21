@@ -2,10 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Bitter } from "next/font/google";
+import { Cormorant_Garamond } from "next/font/google";
 
-const bitter = Bitter({
+const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
-  weight: ["400", "700"], // Specify the weights you want to use
+  weight: ["300", "400", "500", "600", "700"],
 });
 
 // Define the container and child animations
@@ -43,13 +44,13 @@ const Hero = () => {
         className="flex w-1/2 mt-14 flex-col gap-3"
       >
         <motion.h1
-          className={`text-5xl leading-[3.3rem] text-white ${bitter.className}`}
+          className={`text-5xl leading-[3.3rem] tracking-tight text-white ${cormorant.className}`}
           variants={child} // Apply the child animation
         >
           Enhancing a better version of you
         </motion.h1>
         <motion.p
-          className="text-white w-2/3"
+          className="text-white w-2/3 font-cooper font-thin text-3xl"
           variants={child} // Apply the child animation
         >
           Welcome to Dr Senna Clinic, a luxury aesthetic clinic in the heart of

@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        cooper: ["Cooper Hewitt", "sans-serif"],
+      },
     },
   },
   plugins: [],
